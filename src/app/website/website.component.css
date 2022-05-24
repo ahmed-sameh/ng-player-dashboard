@@ -1,0 +1,30 @@
+.customs-sec {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.links-sec,
+.images-sec {
+  background-color: #FFF;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.customs-sec .title {
+  color: var(--dark-blue-color);
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.customs-sec .link {
+  margin-left: 0px;
+}
+
+.customs-sec .link .link-label {
+  font-size: 18px;
+  text-transform: capitalize;
+}

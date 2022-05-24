@@ -1,0 +1,89 @@
+<div class="customs-sec">
+  
+  <section class="images-sec">
+    <h3 class="title">custom Images</h3>
+  
+    <div class="auth-img">
+      <form (ngSubmit)="onSubmit(authImage)" #authImage="ngForm"> 
+          <div class="mb-3 row link">
+            <label for="authImage" class="col-sm-12 col-lg-2 col-form-label link-label">auth image</label>
+            <div class="col-sm-12 col-lg-5">
+              <input type="text"  class="form-control link-input" id="authImage" ngModel name="authImage">
+            </div>
+          </div>
+      </form>
+    </div>
+  
+    <div class="home-img">
+      <form (ngSubmit)="onSubmit(homeImage)" #homeImage="ngForm"> 
+          <div class="mb-3 row link">
+            <label for="homeImage" class="col-sm-12 col-lg-2 col-form-label link-label">home image</label>
+            <div class="col-sm-12 col-lg-5">
+              <input type="text"  class="form-control link-input" id="homeImage" ngModel name="homeImage">
+            </div>
+          </div>
+      </form>
+    </div>
+  </section>
+
+
+
+
+<section class="links-sec">
+  <h3 class="title">communication links</h3>
+  
+  <div class="contact-links">
+    <form (ngSubmit)="onSubmit(whatsapp)" #whatsapp="ngForm"> 
+
+        <div class="mb-3 row link">
+          <label for="whatsapp" class="col-sm-12 col-lg-2 col-form-label link-label">Whats app</label>
+          <div class="col-sm-12 col-lg-5">
+            <input type="text"  class="form-control link-input" id="whatsapp" ngModel name="whatsapp">
+          </div>
+        </div>
+
+        <div class="mb-3 row link">
+          <label for="telegram" class="col-sm-12 col-lg-2 col-form-label link-label">telegram</label>
+          <div class="col-sm-12 col-lg-5">
+            <input type="text"  class="form-control link-input" id="telegram" ngModel name="telegram">
+          </div>
+        </div>
+
+        <div class="mb-3 row link">
+          <label for="facebook" class="col-sm-12 col-lg-2 col-form-label link-label">facebook</label>
+          <div class="col-sm-12 col-lg-5">
+            <input type="text"  class="form-control link-input" id="facebook" ngModel name="facebook">
+          </div>
+        </div>
+
+        <div class="mb-3 row link">
+          <label for="twitter" class="col-sm-12 col-lg-2 col-form-label link-label">twitter</label>
+          <div class="col-sm-12 col-lg-5">
+            <input type="text"  class="form-control link-input" id="twitter" ngModel name="twitter">
+          </div>
+        </div>
+
+        <div class="mb-3 row link">
+          <label for="website" class="col-sm-12 col-lg-2 col-form-label link-label">website</label>
+          <div class="col-sm-12 col-lg-5">
+            <input type="text"  class="form-control link-input" id="website" ngModel name="website">
+          </div>
+        </div>
+
+        <div class="mb-3 row link">
+          <label for="other" class="col-sm-12 col-lg-2 col-form-label link-label">other</label>
+          <div class="col-sm-12 col-lg-5">
+            <input type="text"  class="form-control link-input" id="other" ngModel name="other">
+          </div>
+        </div>
+
+
+    </form>
+  </div>
+</section>
+
+
+
+
+
+</div>

@@ -1,0 +1,33 @@
+<div class="side-bar" [ngClass]="{'show': showNav}">
+
+  <div class="mobile-btn" (click)="showNav = !showNav">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  
+  <h3 class="header">dashboard</h3>
+
+  <ul class="nav-list">
+    <li class="nav-item"
+    routerLinkActive="active"
+    [routerLink]="'./users'">
+      <fa-icon [icon]="usersIcon" class="list-icon"></fa-icon>
+      <span>users</span>
+    </li>
+
+    <li class="nav-item"
+    routerLinkActive="active"
+    [routerLink]="'./hosts'"> 
+      <fa-icon [icon]="hostsIcon" class="list-icon"></fa-icon>
+      <span>hosts</span>
+    </li>
+    
+    <li class="nav-item"
+    routerLinkActive="active"
+    [routerLink]="'./website'"> 
+      <fa-icon [icon]="websiteIcon" class="list-icon"></fa-icon>
+      <span>website</span>
+    </li>
+  </ul>
+</div>

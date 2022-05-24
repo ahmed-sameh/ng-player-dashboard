@@ -1,0 +1,26 @@
+.user-sec {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.user-sec .title {
+  font-size: 20px;
+  color: var(--pink-color);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.user-sec .user-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.user-sec .user-actions button {
+  padding: 6px 20px;
+  font-weight: 500;
+  text-transform: capitalize;
+}

@@ -1,0 +1,19 @@
+.full-width-table {
+  width: 100%;
+}
+
+.data-table {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.table-header {
+  background-color: #c0c0c03d;
+}
+
+.table-header-cell {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(----dark-blue-color);
+  text-transform: uppercase;
+}
